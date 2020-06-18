@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Istanbul.CacheManager", "Istanbul.CacheManager\Istanbul.CacheManager.csproj", "{62139AFA-D5DA-432E-A7B0-2CC3BDA24E6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Istanbul.CacheManager.Provider.Redis", "Istanbul.CacheManager.Provider.Redis\Istanbul.CacheManager.Provider.Redis.csproj", "{22331F5D-0786-4EB4-AE58-A4316F1157D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Istanbul.CacheManager.Provider.Memory", "Istanbul.CacheManager.Provider.Memory\Istanbul.CacheManager.Provider.Memory.csproj", "{BF20F878-75A5-4BFD-96C1-8F2192B5C063}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{8871D163-10C9-4C6E-A12A-1DCE0F4FE074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Istanbul.CacheManager.Sample.Api", "Istanbul.CacheManager.Sample.Api\Istanbul.CacheManager.Sample.Api.csproj", "{589356E4-10FE-4536-BD1E-6BF64BB9AB8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62139AFA-D5DA-432E-A7B0-2CC3BDA24E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62139AFA-D5DA-432E-A7B0-2CC3BDA24E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62139AFA-D5DA-432E-A7B0-2CC3BDA24E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62139AFA-D5DA-432E-A7B0-2CC3BDA24E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22331F5D-0786-4EB4-AE58-A4316F1157D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22331F5D-0786-4EB4-AE58-A4316F1157D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22331F5D-0786-4EB4-AE58-A4316F1157D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22331F5D-0786-4EB4-AE58-A4316F1157D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF20F878-75A5-4BFD-96C1-8F2192B5C063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF20F878-75A5-4BFD-96C1-8F2192B5C063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF20F878-75A5-4BFD-96C1-8F2192B5C063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF20F878-75A5-4BFD-96C1-8F2192B5C063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{589356E4-10FE-4536-BD1E-6BF64BB9AB8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589356E4-10FE-4536-BD1E-6BF64BB9AB8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589356E4-10FE-4536-BD1E-6BF64BB9AB8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589356E4-10FE-4536-BD1E-6BF64BB9AB8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{589356E4-10FE-4536-BD1E-6BF64BB9AB8D} = {8871D163-10C9-4C6E-A12A-1DCE0F4FE074}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0043FBA-52E4-41A8-B32F-D5DC662EA518}
+	EndGlobalSection
+EndGlobal
