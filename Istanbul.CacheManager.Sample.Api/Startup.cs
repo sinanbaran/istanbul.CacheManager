@@ -28,13 +28,22 @@ namespace Istanbul.CacheManager.Sample.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddCacheMemory();
+
             //services.AddCache(new MemoryCacheProvider());
 
-            services.AddCache(new RedisCacheProvider(new RedisConnection(new RedisConfig()
-            {
-                Connection = "127.0.0.1",
-                Database = 1
-            })));
+            //services.AddCacheRedis(new RedisConfig()
+            //{
+            //    Connection = "127.0.0.1",
+            //    Database = 1
+            //});
+
+            //services.AddCache(new RedisCacheProvider(new RedisConnection(new RedisConfig()
+            //{
+            //    Connection = "127.0.0.1",
+            //    Database = 1
+            //})));
 
 
             services.AddControllers();
