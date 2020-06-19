@@ -1,4 +1,3 @@
 # Istanbul.CacheManager
 
-RedisProvider : docker-compose.yml  çalıştırmanız yeterli olacaktır.(cmd >  "docker-compose up" ile redis sunucusunu aktif hale getirebilirsiniz.)
-
+RedisProvider: It will be enough to run docker-compose.yml. (Cmd> You can activate redis server with "docker-compose up".)
